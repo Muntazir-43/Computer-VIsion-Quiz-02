@@ -50,6 +50,7 @@ python scripts/predict.py
 ```
 
 The script will output the Predicted Value and the Confidence Score (%) based on the trained weights.
+
 ---
 
 ## 🧠 Methodology
@@ -58,6 +59,7 @@ The model utilizes a sequence of Conv2D and MaxPooling2D layers to extract spati
 Normalization: Pixel values are rescaled to the [0, 1] range.
 
 Classification: A Dense softmax layer outputs probabilities for 4 classes (1, 5, 10, 20).
+
 ---
 
 ## 👤 Author Information
@@ -70,4 +72,5 @@ Classification: A Dense softmax layer outputs probabilities for 4 classes (1, 5,
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 ---
